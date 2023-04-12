@@ -1,0 +1,31 @@
+body,html{
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1tr;
+    grid-template-rows: 1tr 1tr 1tr;
+    grid-area: inherit;
+}
+
+header{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+main{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    margin: 5%;
+    padding-top: 10%;
+}
+
+footer{
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+}
